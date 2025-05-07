@@ -232,30 +232,7 @@ nav ul li a:hover {
     padding: 100px 0;
 }
 
-.portfolio-filter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-}
 
-.portfolio-filter button {
-    padding: 8px 20px;
-    margin: 0 10px;
-    background: none;
-    border: none;
-    color: var(--gray-color);
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 30px;
-}
-
-.portfolio-filter button.active, 
-.portfolio-filter button:hover {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-}
 
 .portfolio-grid {
     display: grid;
@@ -785,9 +762,7 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .portfolio-filter button {
-        margin: 5px;
-    }
+    
     
     .testimonial p {
         font-size: 1rem;
